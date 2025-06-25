@@ -18,10 +18,10 @@ It covers data collection, preprocessing, modeling, evaluation, and dashboard vi
 
 ## 🧠 Team Members
 
-- **Prinz Ahad** (Lead)
+- **Alahadu** 
+- **Ajay**
+- **Aravind**
 - Team of 3 Researchers
-- Duration: 140 days (Capstone Project)
-
 ---
 
 ## 📂 Folder Structure
