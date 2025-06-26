@@ -1,5 +1,5 @@
 
-# 📈 Time Series Forecasting of Indian Equity Market using Machine Learning
+# Time Series Forecasting of Indian Equity Market using Machine Learning
 
 A complete ML pipeline to forecast Indian stock prices using ARIMA, Prophet, and LSTM. This project showcases real-time forecasting, dashboard visualization, and multi-model comparisons for 9 major Indian stocks.
 
@@ -8,43 +8,36 @@ A complete ML pipeline to forecast Indian stock prices using ARIMA, Prophet, and
 ## 🚀 Project Overview
 
 This project aims to predict future stock prices for selected Indian companies using:
-1. 🔢 Statistical Modeling (ARIMA)
-2. 📐 Additive Models (Facebook Prophet)
-3. 🧠 Deep Learning (LSTM)
+1. Statistical Modeling (ARIMA)
+2. Additive Models (Facebook Prophet)
+3. Deep Learning (LSTM)
 
 It covers data collection, preprocessing, modeling, evaluation, and dashboard visualization — an end-to-end pipeline from raw data to insights.
 
 ---
 
-## 🧠 Team Members
+## Team Members:
 
 - **Alahadu** 
 - **Ajay**
 - **Aravind**
-- Team of 3 Researchers
 ---
 
 ## 📂 Folder Structure
 
-📁 Time-Series-Forecasting-of-Indian-Equity-Market/
+Time-Series-Forecasting-of-Indian-Equity-Market/
 ├── app.py # Dash dashboard to visualize predictions
 ├── Time_Series_Forecasting.ipynb # Main Colab notebook
 ├── lstm_results/ # Output CSVs: forecast + future_forecast for 9 stocks
 ├── requirements.txt # Python dependencies
 └── README.md # You're here!
 
-yaml
-Copy
-Edit
 
----
+## Data Sources
 
-## 📊 Data Sources
+- Historical Stock Prices: `yfinance`, `nsepy`, `Alpha Vantage`
+- Macro Indicators: Inflation, GDP from public datasets
 
-- 📈 Historical Stock Prices: `yfinance`, `nsepy`, `Alpha Vantage`
-- 🌍 Macro Indicators: Inflation, GDP from public datasets
-
----
 
 ## 🛠️ Tools & Libraries Used
 
@@ -59,7 +52,7 @@ Edit
 
 ---
 
-## ✅ Models Built
+## Models Built
 
 | Model   | Description                                      |
 |---------|--------------------------------------------------|
@@ -68,30 +61,30 @@ Edit
 | LSTM    | Deep learning model for sequence prediction      |
 
 Each model is evaluated using:
-- 📉 RMSE (Root Mean Squared Error)
-- 📏 MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
 
 ---
 
 ## 📈 Output
 
-- 🔮 Future predictions for each of the 9 selected stocks
-- 📊 Visualized using Dash web app
-- 🗃️ CSV files saved in `/lstm_results/` as:
+- Future predictions for each of the 9 selected stocks
+- Visualized using Dash web app
+- CSV files saved in `/lstm_results/` as:
   - `STOCK_forecast.csv` (train/test/prediction)
   - `STOCK_future_forecast.csv` (next N days prediction)
 
 ---
 
-## 💻 Dash App Usage
+## Dash App Usage
 
 To run the dashboard locally:
 
 ```bash
 python app.py
-⚠️ Make sure your lstm_results/ folder is in the same directory as app.py.
+⚠️Make sure your lstm_results/ folder is in the same directory as app.py.
 
-📦 How to Use
+How to Use:
 Clone this repo
 
 Run the notebook (Time_Series_Forecasting.ipynb) in Google Colab
@@ -100,17 +93,17 @@ Forecasts will be saved in lstm_results/
 
 Launch app.py to explore the results visually
 
-🔭 Future Enhancements
-🧪 Add evaluation for future_forecast using post-hoc data
+🔭 Future Enhancements:
+Add evaluation for future_forecast using post-hoc data
 
-🌐 Deploy dashboard using Streamlit Cloud or Render
+Deploy dashboard using Streamlit Cloud or Render
 
-🧾 Integrate financial news and sentiment analysis
+Integrate financial news and sentiment analysis
 
-📜 License
+ License
 MIT License © 2025 Prinz Ahad
 
-🙌 Acknowledgements
+Acknowledgements:
 Yahoo Finance (via yfinance)
 
 NSE India API
